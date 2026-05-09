@@ -107,7 +107,7 @@ Add history page screenshot here.
 ## 1️⃣ Clone Repository
 
 ```bash
-git clone https://github.com/your-username/ai-image-generator.git
+git clone https://github.com/poosaalasoumith/AI-Image-Generator
 ```
 
 ---
