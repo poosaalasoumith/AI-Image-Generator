@@ -1,36 +1,290 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 AI Image Generator
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![AI Image Generator Banner](https://img.shields.io/badge/AI-Image%20Generator-blue?style=for-the-badge\&logo=openai)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge\&logo=next.js)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge\&logo=typescript\&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge\&logo=supabase\&logoColor=white)
+![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge\&logo=stripe\&logoColor=white)
+
+### ✨ Generate stunning AI-powered images with a modern futuristic experience.
+
+Built with **Next.js**, **Clerk**, **Supabase**, **Prisma**, **Stripe**, and **Hugging Face**.
+
+</div>
+
+---
+
+# 🌟 Features
+
+## 🎨 AI Image Generation
+
+* Generate high-quality AI images using Hugging Face models
+* Multiple artistic styles and presets
+* Regenerate feature for unique variations
+* Aspect ratio selection support
+* Prompt enhancement system
+
+## 🔐 Authentication & Security
+
+* Secure authentication with Clerk
+* Protected dashboard routes
+* Secure API handling
+* Authorized developer/admin system
+
+## 💳 Credits & Billing
+
+* Daily free credits system
+* Unlimited credits for authorized users
+* Stripe subscription integration
+* Credit tracking and live updates
+
+## 🖼️ Image Management
+
+* Image history gallery
+* Multi-select image deletion
+* Select all / bulk delete
+* Fullscreen image preview
+* One-click image download
+
+## ⚡ Premium SaaS Experience
+
+* Futuristic dark UI
+* Smooth animations
+* Skeleton loading states
+* Responsive dashboard
+* Modern landing page design
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology    | Purpose                      |
+| ------------- | ---------------------------- |
+| Next.js       | Frontend & Backend Framework |
+| TypeScript    | Type Safety                  |
+| Tailwind CSS  | Styling                      |
+| Clerk         | Authentication               |
+| Supabase      | Database & Storage           |
+| Prisma        | ORM                          |
+| Hugging Face  | AI Image Generation          |
+| Stripe        | Payments & Subscriptions     |
+| Framer Motion | Animations                   |
+
+---
+
+# 📸 Screenshots
+
+## 🏠 Landing Page
+
+Add your landing page screenshot here.
+
+```md
+![Landing Page](./public/screenshots/landing-page.png)
+```
+
+## 🎨 Dashboard
+
+Add dashboard screenshot here.
+
+```md
+![Dashboard](./public/screenshots/dashboard.png)
+```
+
+## 🖼️ History Gallery
+
+Add history page screenshot here.
+
+```md
+![History](./public/screenshots/history.png)
+```
+
+---
+
+# ⚙️ Installation
+
+## 1️⃣ Clone Repository
+
+```bash
+git clone https://github.com/your-username/ai-image-generator.git
+```
+
+---
+
+## 2️⃣ Navigate to Project
+
+```bash
+cd ai-image-generator
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+---
+
+## 4️⃣ Setup Environment Variables
+
+Create:
+
+```bash
+.env.local
+```
+
+Add:
+
+```env
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+CLERK_WEBHOOK_SECRET=
+
+# Database
+DATABASE_URL=
+DIRECT_URL=
+
+# Supabase
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+SUPABASE_SERVICE_ROLE_KEY=
+
+# Hugging Face
+HUGGINGFACE_API_KEY=
+HUGGINGFACE_MODEL=runwayml/stable-diffusion-v1-5
+
+# Stripe
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
+STRIPE_PRO_PRICE_ID=
+
+# Authorized Users
+AUTHORIZED_USERS=
+```
+
+---
+
+## 5️⃣ Run Prisma
+
+```bash
+npx prisma db push
+```
+
+---
+
+## 6️⃣ Start Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 🔥 Key Features Explained
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Daily Credits System
 
-## Learn More
+* Every free user receives 5 credits daily
+* Credits automatically reset every 24 hours
+* Authorized users get unlimited generation access
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 Prompt Enhancer
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The platform enhances prompts with:
 
-## Deploy on Vercel
+* cinematic lighting
+* detailed composition
+* artistic quality
+* professional AI prompting
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔄 Regenerate Variations
+
+Generate multiple creative variations from the same prompt instead of duplicated outputs.
+
+---
+
+# 🚀 Deployment
+
+## Deploy to Vercel
+
+```bash
+vercel
+```
+
+Or connect the repository directly with:
+
+* Vercel
+* GitHub
+* Supabase
+
+---
+
+# 📂 Project Structure
+
+```bash
+src/
+ ├── app/
+ ├── components/
+ ├── lib/
+ ├── actions/
+ ├── hooks/
+ ├── prisma/
+ └── styles/
+```
+
+---
+
+# 🔒 Security
+
+* Secure server-side API validation
+* Protected routes
+* Webhook verification
+* Environment variable protection
+* Row Level Security support
+
+---
+
+# 💡 Future Improvements
+
+* AI video generation
+* Image collections/folders
+* Infinite scroll gallery
+* Team workspaces
+* AI model switching
+* Social sharing
+* Mobile app version
+
+---
+
+# 👨‍💻 Author
+
+### Soumith
+
+Passionate Full-Stack Developer building futuristic AI-powered web applications.
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+⭐ Star the repository
+🍴 Fork the project
+🚀 Share it with others
+
+---
+
+<div align="center">
+
+### ✨ AI Image Generator — Create Stunning AI Art Instantly ✨
+
+</div>
